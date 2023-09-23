@@ -14,6 +14,10 @@ body {
     justify-content: center;
 }
 
+i {
+    color:  blueviolet;
+}
+
 .container {
     display: flex;
     position: relative;
