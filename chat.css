@@ -1,0 +1,51 @@
+.ai-chat {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+}
+
+.ai-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+}
+
+.ai-img img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.ai-chat .ai-input {
+    height: 3rem;
+    display: flex;
+    border: 1px solid rgb(189, 59, 221);
+    background-color: #fff;
+    border-radius: 0px 20px 0px 20px;
+    margin: 0 5px;
+}
+
+.ai-chat .ai-input input {
+    flex: 1;
+    height: 100%;
+    padding: 2px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.ai-chat .ai-input button {
+    height: 100%;
+    width: 15%;
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+}
+
+.ai-chat .ai-input button:hover {
+    color: blueviolet;
+}

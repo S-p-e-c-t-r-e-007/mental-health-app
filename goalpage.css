@@ -1,0 +1,136 @@
+.input-goals {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    height: 100%;
+}
+
+.input-goals .int {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: #fff;
+    min-height: 100px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.input-goals .int h1 {
+    font-size: 1.75rem;
+    margin: 5px 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: blueviolet;
+}
+
+.input-goals .int input {
+    outline: none;
+    height: 2rem;
+    font-size: 1rem;
+    border: 1px solid rgb(189, 59, 221);
+    margin: 5px;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.input-goals .int textarea {
+    resize: none;
+    outline: none;
+    font-size: 1rem;
+    border: 1px solid rgb(189, 59, 221);
+    margin: 5px;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.input-goals .int button {
+    width: 30%;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 3px;
+    margin: 5px 5px 5px 67%;
+    background-color: blueviolet;
+    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.input-goals .int button:hover {
+    background-color: #fff;
+    color: blueviolet;
+}
+
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}

@@ -1,0 +1,15 @@
+ body {
+    overflow: hidden;
+    padding:0;
+    margin:0;
+  }
+  
+  svg path {
+    stroke: none; 
+  }
+  
+  svg line {
+  /*   stroke: white;
+    stroke-width: 3;
+    opacity:0.3; */
+  }

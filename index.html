@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental health app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Mental Health</h1>
+        </header>
+        <div class="day-asker">
+            <span>How was your Day?</span>
+        </div>
+
+        <div class="emoji-panel">
+            
+            <a href="#" class="emoji happy"><i class="fa-regular fa-face-smile"></i></a>
+            <a href="#" class="emoji sad"><i class="fa-regular fa-face-sad-tear"></i></a>
+            <a href="#" class="emoji angry"><i class="fa-regular fa-face-angry"></i></a>
+            <a href="#" class="emoji crying"><i class="fa-regular fa-face-sad-cry"></i></a>
+            <a href="#" class="emoji worrying"><i class="fa-regular fa-face-frown"></i></a>
+           
+        </div>
+
+        <div class="day-input">
+            <span>Describe it on words</span>
+            <div class="day-input input">
+                <textarea  id="day-emote" rows="4" placeholder="How do you feel today!!!"></textarea> 
+                <button><i class="fa-solid fa-check"></i></button>
+            </div>
+        </div>
+        <div class="goals">
+            <div class="head"><h1>Goal</h1></div>
+            <div class="today-goals goal">
+                <h1>Today Goals</h1>
+                <span>
+                    Your today goals appear here
+                </span>
+            </div>
+            <div class="weekly-goals goal">
+                <h1>Week's Goals</h1>
+                <span>
+                    Your weekly goals appear here
+                </span>
+            </div>
+            <div class="longterm-goals goal">
+                <h1>Longterm Goals</h1>
+                <span>
+                    Your longterm goals appear here
+                </span>
+            </div>
+
+        </div>
+        <div class="menu">
+            <a href="index.html" class="Home"><i class="fa fa-house"></i></a>
+            <a href="goalpage.html" class="goals-input"><i class="fa fa-bullseye"></i></a>
+            <div class="notifi-bell">
+                <a href="notification.html" class="notification"><i class="fa fa-bell"></i></a>
+                <span>2</span>
+            </div>
+            <div class="chat-page">
+                <a href="chat.html"><i class="fa-solid fa-message"></i>
+                </a>
+            </div>
+            <a href="ambience.html" class="ambience"><i class="fa fa-cloud"></i></a>
+            <a href="settings.html" class="settings"><i class="fa fa-gear"></i></a>
+        </div> 
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
